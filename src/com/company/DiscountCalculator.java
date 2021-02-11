@@ -13,7 +13,7 @@ public class DiscountCalculator {
         System.out.println("Enter percentage discount:");
         int discount=sc.nextInt();
 
-        for (i=0, i<ticket_price.length,i++){
+        for (i=0;i<ticket_price.length;i++){
             System.out.println(ticket_price[i]);
             new_price=(ticket_price[i]-(ticket_price[i]*discount)/100);
         }
