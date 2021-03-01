@@ -6,11 +6,11 @@ public class Student {
     int phy;
     int chem;
 
-    Student(int i,int M,int p,int c){
-        id=i;
-        Math=M;
-        phy=p;
-        chem=c;
+    Student(int id,int Math,int phy,int chem){
+        this.id=id;
+        this.Math=Math;
+        this.phy=phy;
+        this.chem=chem;
         System.out.println("constructor code is being executed");
     }
      double percentage(int sum){
