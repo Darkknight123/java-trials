@@ -15,18 +15,18 @@ class EmployeeCommission extends CommissionEmployeeTest{
         super(fn, sn, ssn);
     }
 
-    public double getcommissionp(){
+    public double getCommissionPercentage(){
         return this.commissionPercentage;
     }
-    public void setcommissionp(double cp){
+    public void setCommissionPercentage(double cp){
         this.commissionPercentage=cp;
     }
 
-    public double getgrossSales(){
+    public double getGrossSales(){
         return this.grossSales;
     }
 
-    public void setgrossSales(double gs){
+    public void setGrossSales(double gs){
         this.grossSales=gs;
     }
 
